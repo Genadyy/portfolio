@@ -304,7 +304,16 @@ body {
     width: 35vw;
     height: 25vh;
   }
-
+.end-part{
+  height: 90vh;
+  padding: 8em 0 0 0;
+}
+.end-text{
+  font-size: 5em;
+}
+.smile{
+  font-size: 3em;
+}
 }
 @media (max-width: 900px) {
   .title {
@@ -542,7 +551,7 @@ body {
     font-size: 0.8em;
   }
 }
-@media (max-width: 681px) and (min-height: 300px) {
+@media (max-width: 681px) and (min-height: 279px) {
   .header {
     height: 4em;
     padding: 0 2em;
@@ -625,11 +634,12 @@ body {
     overflow: hidden;
   }
   .end-text {
-    padding: 2em 0 1em;  
-    font-size: 3em;
+    padding: 1.5em 0 0.71em;  
+    font-size: 2.8em;
   }
   .smile {
-    font-size: 2em;
+
+    font-size: 1.7em;
   }
   .footer {
     height: 4em;
@@ -682,6 +692,48 @@ body {
   .footer > p {
     padding: 0 0 0 2em;
     font-size: 0.8em;
+  }
+}
+@media (max-width: 560px) and (min-height: 680px) {
+  #welcome-section {
+    width: 100%;
+    padding: 10em 0 0 0;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .welcome-section-main{
+    width: 100%;
+    padding: 8em 0;
+    text-align: center;
+  }
+  .wrap-img {
+    
+    top: 6em;
+    right: 2em;
+  }
+  .aside {
+    flex-wrap: wrap;
+    padding: 0 1em 0 2em;  
+  }
+  .aside h2 {
+    padding: 1em 0;
+    font-size: 1em;
+  }
+  .aside p{
+    padding: 0 0 0 1em;
+    font-size: 0.8em;
+  }
+  .aside p:nth-child(6) {
+    margin: 0 0 0 14.5em;
+  }
+  
+  .project p {
+    padding: 0.3em 0;
+    font-size: 1.2em;
+  }
+  .end-part{
+    height: 85vh;
+    padding: 7em 0 0 0;
   }
 }
 @media (max-width: 480px) {
@@ -795,3 +847,19 @@ body {
     font-size: 0.6em;
   }
 }
+@media (max-width: 281px) {
+    .header {
+      height: 4em;
+      padding: 0 0.5em;
+    }
+    .nav-list > li {
+      padding: 1.2em 1em 1.7em;
+    }
+    .nav-link {
+      font-size: 1em;
+    }
+    .project p {
+      
+      font-size: 1em;
+    }
+  }
