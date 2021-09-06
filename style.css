@@ -64,7 +64,7 @@ body {
   color: #fff;
 }
 .title-append {
-  padding: 3vh 0;
+  padding: 1.5vw 0;
   font-size: 2vw;
   font-weight: bold;
   font-style: italic;
@@ -73,12 +73,12 @@ body {
 }
 .title-invite {
   font-size: 2.2vw;
-  letter-spacing: 0.2vh;
+  letter-spacing: 0.2vw;
   color: #fff;
 }
 .aside {
   width: 15%;
-  padding: 4vh 0 0 0;
+  padding: 1vw 0 0 0;
   text-align: right;
   color: rgba(255, 255, 255, 0.5);
   order: 2;
@@ -87,23 +87,23 @@ body {
   color: rgba(255, 255, 255, 0.9);
 }
 .aside h2 {
-  padding: 0 0 1vh 0;
+  padding: 0 0 0.5vw 0;
   font-size: 1.7vw;
 }
 .aside p {
-  padding: 1vh 0;
+  padding: 0.5vw 0;
   font-size: 1.3vw;
 }
 .wrap-img {
-  width: 35vh;
-  height: 35vh;
+  width: 17vw;
+  height: 17vw;
   position: absolute;
-  top: 20vh;
+  top: 9vw;
   left: 7vw;
 }
 .welcome-section-img {
-  width: 35vh;
-  height: 35vh;
+  width: 17vw;
+  height: 17vw;
   border-radius: 50%;
   overflow: hidden;
   position: relative;
@@ -112,8 +112,8 @@ body {
   width: 150%;
   height: auto;
   position: absolute;
-  top: -12vh;
-  left: -7vh;
+  top: -6vw;
+  left: -3.4vw;
 }
 #projects {
   width: 100%;
@@ -156,12 +156,13 @@ body {
 }
 .end-part {
   width: 100%;
-  height: 80vh;
+  height: 85vh;
+  padding: 15vw 0 0;
   text-align: center;
   background: linear-gradient(45deg, #9b9dd1, #840e40, #1b244d);
 }
 .end-text {
-  padding: 25vh 0 4vh;
+  padding: 0 0 3vw;
   color: #fff;
   font-size: 6vw;
   font-weight: bold;
