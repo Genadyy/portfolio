@@ -201,6 +201,12 @@ body {
   .nav-link {
     font-size: 4.5vh;
   }
+  #projects h3 {
+    font-size: 7vh;
+  }
+  .project p {
+    font-size: 4.5vh;
+  }
   .end-text{
     font-size: 11vh;
   }
