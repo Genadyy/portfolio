@@ -166,7 +166,7 @@ body {
   font-size: 9vh;
   font-weight: bold;
 }
-.smile {
+.end-smile {
   font-size: 4vh;
   font-style: italic;
   letter-spacing: 0.2vh;
@@ -200,6 +200,9 @@ body {
   }
   .nav-link {
     font-size: 4.5vh;
+  }
+  .end-smile {
+    font-size: 4vh;
   }
   .footer {
     height: 12vh;
