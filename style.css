@@ -201,8 +201,11 @@ body {
   .nav-link {
     font-size: 4.5vh;
   }
+  .end-text{
+    font-size: 11vh;
+  }
   .end-smile {
-    font-size: 4vh;
+    font-size: 6vh;
   }
   .footer {
     height: 12vh;
