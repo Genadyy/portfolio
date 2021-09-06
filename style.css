@@ -46,6 +46,254 @@ body {
 #welcome-section {
   width: 100%;
   height: 100vh;
+  padding: 20vh 7vw;
+  background-color: #1b244d;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.welcome-section-main {
+  width: 90%;
+  padding: 20vh 0 0 15vw;
+  text-align: center;
+  order: 1;
+}
+.title {
+  font-size: 7vh;
+  color: #fff;
+}
+.title-append {
+  padding: 3vh 0;
+  font-size: 4vh;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 0.2vh;
+  color: #840e40;
+}
+.title-invite {
+  font-size: 5vh;
+  letter-spacing: 0.2vh;
+  color: #fff;
+}
+.aside {
+  width: 10%;
+  padding: 4vh 0 0 0;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.5);
+  order: 2;
+}
+.aside:hover {
+  color: rgba(255, 255, 255, 0.9);
+}
+.aside h2 {
+  padding: 0 0 1vh 0;
+  font-size: 3vh;
+}
+.aside p {
+  padding: 1vh 0;
+  font-size: 2.5vh;
+}
+.wrap-img {
+  width: 35vh;
+  height: 35vh;
+  position: absolute;
+  top: 20vh;
+  left: 7vw;
+  
+}
+.welcome-section-img {
+  width: 35vh;
+  height: 35vh;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+.welcome-section-img img {
+  width: 150%;
+  height: auto;
+  position: absolute;
+  top: -12vh;
+  left: -7vh;
+}
+#projects {
+  width: 100%;
+  min-height: 100vh;
+  padding: 16vh 5vw 0;
+  text-align: center;
+  background-color: #9b9dd1;
+}
+#projects h3 {
+  padding: 0 0 6vh 0;
+  font-size: 5vh;
+  color: #fff;
+}
+.projects {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.projects > a {
+  text-decoration: none;
+}
+.project {
+  background-color: #1b244d;
+  text-align: center;
+}
+.project p {
+  padding: 1vh 0;
+  font-size: 3vh;
+  color: #fff;
+}
+.project-tile {
+  width: 20vw;
+  height: 30vh;
+  overflow: hidden;
+}
+.project-tile img {
+  width: 100%;
+  height: auto;
+}
+.end-part {
+  width: 100%;
+  height: 80vh;
+  text-align: center;
+  background: linear-gradient(45deg, #9b9dd1, #840e40, #1b244d);
+}
+.end-text {
+  padding: 25vh 0 4vh;
+  color: #fff;
+  font-size: 9vh;
+  font-weight: bold;
+}
+.smile {
+  font-size: 4vh;
+  font-style: italic;
+  letter-spacing: 0.2vh;
+  color: #fff;
+}
+.line {
+  width: 100%;
+  height: 3px;
+  background-color: #9b9dd1;
+}
+.footer {
+  width: 100%;
+  height: 10vh;
+  padding: 0 7vw;
+  background-color: #840e40;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.footer > p {
+  padding: 0 0 0 2vw;
+  font-size: 2.5vh;
+  color: #fff;
+}
+@media (min-width: 1900px) and (min-height: 1060px) {
+  .header {
+    height: 12vh;
+  }
+  .nav-list > li {
+    padding: 3.5vh 2vw 4vh;
+  }
+  .nav-link {
+    font-size: 4.5vh;
+  }
+  .footer {
+    height: 12vh;
+  }
+  .footer > p {
+    padding: 0 0 0 3vw;
+    font-size: 4vh;
+  }
+}
+@media (max-width: 1651px) and (min-height: 950px) {
+  .title {
+    font-size: 6.5vh;
+  }
+  .title-append {
+    font-size: 4vh;
+  }
+  .title-invite {
+    width: 70vw;
+    margin: 0 auto;
+    font-size: 5vh;
+  }
+  .project-tile {
+    width: 21vw;
+    height: 22vh;
+  }
+}
+@media (max-width: 1441px) and (min-height: 950px) {
+  .title {
+    font-size: 6vh;
+  }
+  .title-append {
+    font-size: 4vh;
+  }
+  .title-invite {
+    width: 60vw;
+    margin: 0 auto;
+    font-size: 4vh;
+  }
+  .project-tile {
+    width: 21vw;
+    height: 22vh;
+  }
+}
+
+
+
+/* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+}
+.header {
+  width: 100%;
+  height: 10vh;
+  padding: 0 7vw;
+  background-color: #840e40;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: flex-end;
+}
+#navbar {
+  width: 25%;
+}
+.nav-list {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-list > li {
+  padding: 3vh 1.5vw 3.6vh;
+  list-style: none;
+}
+.nav-list > li:hover {
+  height: 100%;
+  background-color: #535e90;
+}
+.nav-link {
+  text-decoration: none;
+  font-size: 3vh;
+  color: #fff;
+}
+.main {
+  width: 100%;
+  margin: 10vh 0 0 0;
+}
+#welcome-section {
+  width: 100%;
+  height: 100vh;
   padding: 20vh 0;
   background-color: #1b244d;
   display: flex;
