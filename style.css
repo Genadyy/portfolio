@@ -27,7 +27,7 @@ body {
   justify-content: flex-end;
 }
 .nav-list > li {
-  padding: 2vw 2vw 2.4vw;
+  padding: 2vw 2vw 2.35vw;
   list-style: none;
 }
 .nav-list > li:hover {
