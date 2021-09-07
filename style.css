@@ -120,7 +120,7 @@ body {
 #projects {
   width: 100%;
   min-height: 100vh;
-  padding: 7vw 5vw 0;
+  padding: 7vw 5vw 2vw;
   text-align: center;
   background-color: #9b9dd1;
 }
@@ -140,6 +140,7 @@ body {
 }
 .project {
   background-color: #1b244d;
+  margin: 0 0 2vw 0;
   text-align: center;
 }
 .project p {
