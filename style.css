@@ -78,7 +78,6 @@ body {
 }
 .aside {
   width: 15%;
-  padding: 1vw 0 0 0;
   text-align: right;
   color: rgba(255, 255, 255, 0.5);
   order: 2;
@@ -88,11 +87,11 @@ body {
 }
 .aside h2 {
   padding: 0 0 0.5vw 0;
-  font-size: 1.7vw;
+  font-size: 1.8vw;
 }
 .aside p {
   padding: 0.5vw 0;
-  font-size: 1.3vw;
+  font-size: 1.5vw;
 }
 .wrap-img {
   width: 17vw;
