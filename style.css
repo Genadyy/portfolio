@@ -20,16 +20,18 @@ body {
 }
 #navbar {
   width: 33%;
+  height: 100%;
 }
 .nav-list {
-  width: auto;
+  width: 100%;
   height: 100%;
   display: flex;
   justify-content: space-around;
 }
 .nav-list > li {
- 
+  width: auto;
   height: 100%;
+  text-align: center;
   padding: 2vw 1vw;
   list-style: none;
 }
@@ -55,7 +57,7 @@ body {
   justify-content: space-between;
   position: relative;
 }
-.welcome-section-main {
+.welcome-section-title {
   width: 85%;
   padding: 8vw 0 0 15vw;
   text-align: center;
@@ -79,20 +81,20 @@ body {
   letter-spacing: 0.2vw;
   color: #fff;
 }
-.aside {
+.welcome-section-aside {
   width: 15%;
   text-align: right;
   color: rgba(255, 255, 255, 0.5);
   order: 2;
 }
-.aside:hover {
+.welcome-section-aside:hover {
   color: rgba(255, 255, 255, 0.9);
 }
-.aside h2 {
+.welcome-section-aside h2 {
   padding: 0 0 0.5vw 0;
   font-size: 1.8vw;
 }
-.aside p {
+.welcome-section-aside p {
   padding: 0.5vw 0;
   font-size: 1.5vw;
 }
@@ -194,4 +196,149 @@ body {
   padding: 0 0 0 2vw;
   font-size: 2vw;
   color: #fff;
+}
+@media(min-width: 1024px) and (min-height: 1366px) {
+ /* .header {
+    height: 12vh;
+  }
+  #navbar{
+    margin: 0 auto;
+  }
+  .nav-list > li { 
+    padding: 4vh 2vh;
+  }
+  .nav-link {  
+    font-size:3vh;
+  }*/
+  .header {
+    width: 100vw;
+    height: 12vh;
+    padding: 0 7vh;
+    background-color: #840e40;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: flex-end;
+  }
+  #navbar {
+    width: 33%;
+    margin: 0 auto;
+  }
+  .nav-list {
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .nav-list > li {
+   
+    height: 100%;
+    padding: 4vh 2vh;
+    list-style: none;
+  }
+  .nav-list > li:hover {
+    height: 100%;
+    background-color: #535e90;
+  }
+  .nav-link {
+    text-decoration: none;
+    font-size: 3vh;
+    color: #fff;
+  }
+  .main {
+  }
+  #welcome-section {
+    flex-direction: column;
+    padding: 12vh 0 0; 
+  }
+  .welcome-section-title {
+    margin: 0 auto;
+    order: 2;
+  }
+  .title {
+    font-size: 4vh;
+  }
+  .title-append {
+    padding: 1.5vh 0;
+    font-size: 2vh;
+    letter-spacing: 0.2vh;
+  }
+  .title-invite {
+    font-size: 2.2vh;
+    letter-spacing: 0.2vh;
+  }
+  .welcome-section-aside {
+    width: 15%;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.5);
+    order: 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .welcome-section-aside h2 {
+    padding: 0 0 0.5vh 0;
+    font-size: 2.5vh;
+  }
+  .welcome-section-aside p {
+    padding: 0.5vh 0;
+    font-size: 2.2vh;
+  }
+  .wrap-img {
+    width: 22vh;
+    height: 22vh;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    order: 1;
+  }
+  .welcome-section-img {
+    width: 22vh;
+    height: 22vh;
+  }
+  .welcome-section-img img {
+    top: -7.5vh;
+    left: -4.5vh;
+  }
+  #projects {
+    padding: 7vh 5vh 2vh;
+  }
+  #projects h3 {
+    padding: 7vh 0;
+    font-size: 4.5vh;
+  }
+  .project {
+    margin: 0 0 2vh 0;
+  }
+  .project p {
+    padding: 1vh 0;
+    font-size: 2vh;
+  }
+  .project-tile {
+    width: 20vh;
+    height: 17vh;
+  }
+  .end-part {
+    height: 86vh;
+    padding: 25vh 1vh 0;
+  }
+  .end-text {
+    padding: 0 0 3vh;
+    font-size: 6vh;
+  }
+  .end-smile {
+    font-size: 3vh;
+    letter-spacing: 0.2vh;
+  }
+  .footer {
+    height: 12vh;
+    padding: 0 1vh;
+  }
+  .footer > p {
+    padding: 0 0 0 1vh;
+    font-size: 2.5vh;
+  }
 }
