@@ -303,10 +303,12 @@ body {
   .footer {
     height: 12vh;
     padding: 0 1vh;
+    flex-direction: column;
+    justify-content: space-evenly;
   }
   .footer > p {
     padding: 0 0 0 1vh;
-    font-size: 2.5vh;
+    font-size: 2vh;
   }
 }
 
@@ -416,10 +418,12 @@ body {
   .footer {
     height: 12vh;
     padding: 0 1vh;
+    flex-direction: column;
+    justify-content: space-evenly;
   }
   .footer > p {
     padding: 0 0 0 1vh;
-    font-size: 2.5vh;
+    font-size: 2vh;
   }
 }
 @media(max-width: 541px) and (max-height: 825px) {
@@ -533,6 +537,6 @@ body {
   }
   .footer > p {
     padding: 0 0 0 1vh;
-    font-size: 2.5vh;
+    font-size: 2vh;
   }
 }
