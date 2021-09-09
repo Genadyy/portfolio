@@ -98,11 +98,35 @@ body {
   font-size: 1.5vw;
 }
 .wrap-img {
-  width: 17vw;
-  height: 17vw;
+  width: 19vw;
+  height: 19vw;
+  border: 1vw solid rgba(255, 255, 255, 0.85);
+  border-radius: 50%;
   position: absolute;
   top: 9vw;
   left: 7vw;
+  opacity: 1;
+  animation-name: presentation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes presentation {
+ 0% {
+  border: 1vw solid rgba(255, 255, 255, 0.85);
+  }
+  25%{
+    border: 1vw solid rgba(255, 255, 255, 0.5);
+  }
+  50%{
+    border: 1vw solid rgba(255, 255, 255, 0);
+  }
+  75%{
+    border: 1vw solid rgba(255, 255, 255, 0.5);
+  }
+ 100% {
+  border: 1vw solid rgba(255, 255, 255, 0.85);
+  }
 }
 .welcome-section-img {
   width: 17vw;
@@ -124,19 +148,24 @@ body {
 }
 .presentation{
   display: none;
-  width: 18vw;
-  height: 21vw;
+  width: 19vw;
+  height: 19vw;
 }
 .show{
   display:block;
 }
 .wrap-presentation{
-  width: 18vw;
-  height: 21vw;
+  width: 19vw;
+  height: 19vw;
+  border-radius: 50%;
   overflow: hidden;
   position: relative;
+  top: -1vw;
+  left: -1vw;
 }
 .wrap-presentation video{
+  width: 100%;
+  height:auto;
   position: absolute;
   top: -2vw;
   left: 0;

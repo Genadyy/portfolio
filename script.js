@@ -5,6 +5,7 @@ function startPresentation() {
     pointPhoto.addEventListener('click', () => {
         hidePhoto();
         showPresentation();
+        endPresentation();
 })
 };
 
@@ -22,8 +23,12 @@ insertPresentation();
 
 const itemPresentation = `
 <div class="wrap-presentation">
-    <video src="./images/presentation.mp4" autoplay="autoplay" width="100%" heght="60%" ></video>
+    <video src="./images/presentation.mp4" autoplay="autoplay"></video>
 </div>
+`;
+
+const emptyPresentation = `
+<div></div>
 `
 
 function insertPresentation() {
@@ -37,8 +42,16 @@ function stopPresentation() {
     })
  };
 
+function endPresentation() {
+    setTimeout(function() {
+        hidePresentation();
+        showPhoto();
+    }, 5000)
+};
+
  function hidePresentation() {
      presentation.classList.remove('show');
+     presentation.innerHTML = emptyPresentation;
  };
 
  function showPhoto() {
