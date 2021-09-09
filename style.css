@@ -107,9 +107,13 @@ body {
 .welcome-section-img {
   width: 17vw;
   height: 17vw;
+  display: block;
   border-radius: 50%;
   overflow: hidden;
   position: relative;
+}
+.hide{
+  display: none;
 }
 .welcome-section-img img {
   width: 150%;
@@ -118,6 +122,26 @@ body {
   top: -6vw;
   left: -3.4vw;
 }
+.presentation{
+  display: none;
+  width: 18vw;
+  height: 21vw;
+}
+.show{
+  display:block;
+}
+.wrap-presentation{
+  width: 18vw;
+  height: 21vw;
+  overflow: hidden;
+  position: relative;
+}
+.wrap-presentation video{
+  position: absolute;
+  top: -2vw;
+  left: 0;
+}
+
 #projects {
   width: 100%;
   min-height: 100vh;
