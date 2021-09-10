@@ -98,39 +98,36 @@ body {
   font-size: 1.5vw;
 }
 .wrap-img {
-  width: 19vw;
-  height: 19vw;
-  border: 1vw solid rgba(255, 255, 255, 0);
+  width: 17vw;
+  height: 17vw;
+  box-shadow: 0px 0px 0px 0px white;
+  /*border: 1vw solid rgba(255, 255, 255, 0);*/
   border-radius: 50%;
   position: absolute;
   top: 9vw;
   left: 7vw;
   opacity: 1;
   animation-name: presentation;
-  animation-duration: 2s;
+  animation-duration: 1.5s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
 @keyframes presentation {
  0% {
-  border: 1vw solid rgba(255, 255, 255, 0);
+  box-shadow: 0px 0px 3px 3px white;
   }
   25%{
-   
-    border: 1vw solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0px 0px 6px 6px white;
   }
   50%{
-    
-    border: 1vw solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 9px 9px white;
   }
   75%{
-   
-    border: 1vw solid rgba(255, 255, 255, 0.75);
+    box-shadow: 0px 0px 12px 12px white;
   }
  100% {
-  
-  border: 1vw solid rgba(255, 255, 255, 1);
-  }
+  box-shadow: 0px 0px 15px 15px white;
+ }
 }
 .welcome-section-img {
   width: 17vw;

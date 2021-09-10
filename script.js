@@ -10,7 +10,6 @@ function startPresentation() {
 };
 
 startPresentation();
-stopPresentation();
 
 function hidePhoto() {
     pointPhoto.classList.add('hide');
@@ -34,13 +33,6 @@ const emptyPresentation = `
 function insertPresentation() {
     presentation.innerHTML = itemPresentation;
 };
-
-function stopPresentation() {
-    presentation.addEventListener('click', () => {
-        hidePresentation();
-        showPhoto();
-    })
- };
 
 function endPresentation() {
     setTimeout(function() {
