@@ -170,7 +170,73 @@ body {
   top: -2vw;
   left: 0;
 }
-
+.cursor-wrap{
+  width: 1.3vw;
+  height: 1.3vw;
+  position: absolute;
+  top: 26vw;
+  left: 20vw;
+  z-index: 30;
+}
+.cursor-icon{
+  position: relative;
+  display: block;
+  width: 1.3vw;
+  height: 1.3vw;
+  opacity: 0;
+  z-index: 5;
+  animation-name: cursor;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes cursor {
+  0%{
+    opacity: 0;
+  }
+  25%{
+    opacity: 0.5;
+  }
+  50%{
+    opacity: 1;
+  }
+  75%{
+    opacity: 0.5;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+.cursor-icon span{
+  position: absolute;
+    top: 0.8vw;
+    left: 0;
+    width: 100%;
+    height: 0.3vw;
+    transform: rotate(45deg);
+    background-color: #fff;
+}
+.cursor-icon span::after{
+  content: "";
+    position: absolute;
+    top: 0.3vw;
+    left: -0.3vw;
+    width: 70%;
+    height: 0.3vw;
+    transform: rotate(45deg);
+    
+    background-color: #fff;
+}
+.cursor-icon span::before{
+  content: "";
+    position: absolute;
+    top: -0.25vw;
+    left: -0.3vw;
+    width: 75%;
+    height: 0.3vw;
+    transform: rotate(135deg);
+    
+    background-color: #fff;
+}
 #projects {
   width: 100%;
   min-height: 100vh;
@@ -341,7 +407,28 @@ body {
   .wrap-presentation video{
     top: -2vh;
   }
-  
+  .cursor-wrap{
+    width: 1.3vh;
+    height: 1.3vh;
+    top: 35vh;
+    left: 30vh;
+  }
+  .cursor-icon{
+    width: 1.3vh;
+    height: 1.3vh;
+  }
+  .cursor-icon span{
+      top: 0.8vh;
+      height: 0.3vh;
+  }
+  .cursor-icon span::after{
+      top: 0.3vh;
+      left: -0.3vh;
+  }
+  .cursor-icon span::before{
+      top: -0.25vh;
+      left: -0.3vh;
+  }
   #projects {
     padding: 7vh 5vh 2vh;
   }
@@ -477,7 +564,28 @@ body {
   .wrap-presentation video{
     top: -2vh;
   }
-  
+  .cursor-wrap{
+    width: 1.3vh;
+    height: 1.3vh;
+    top: 36vh;
+    left: 44vh;
+  }
+  .cursor-icon{
+    width: 1.3vh;
+    height: 1.3vh;
+  }
+  .cursor-icon span{
+      top: 0.8vh;
+      height: 0.3vh;
+  }
+  .cursor-icon span::after{
+      top: 0.3vh;
+      left: -0.3vh;
+  }
+  .cursor-icon span::before{
+      top: -0.25vh;
+      left: -0.3vh;
+  }
   #projects {
     padding: 7vh 5vh 2vh;
   }
@@ -616,7 +724,28 @@ body {
   .wrap-presentation video{
     top: -2vh;
   }
-  
+  .cursor-wrap{
+    width: 1.3vh;
+    height: 1.3vh;
+    top: 36vh;
+    left: 36vh;
+  }
+  .cursor-icon{
+    width: 1.3vh;
+    height: 1.3vh;
+  }
+  .cursor-icon span{
+      top: 0.8vh;
+      height: 0.3vh;
+  }
+  .cursor-icon span::after{
+      top: 0.3vh;
+      left: -0.3vh;
+  }
+  .cursor-icon span::before{
+      top: -0.25vh;
+      left: -0.3vh;
+  }
   #projects {
     padding: 7vh 5vh 2vh;
   }
