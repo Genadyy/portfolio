@@ -171,42 +171,96 @@ body {
   left: 0;
 }
 .cursor-wrap{
-  width: 1.3vw;
-  height: 1.3vw;
-  position: absolute;
-  top: 26vw;
-  left: 20vw;
+  width: 3vw;
+  height: 3vw;
+  position: relative;
+  top: 14vw;
+  left: 8vw;
   z-index: 30;
 }
 .cursor-icon{
-  position: relative;
   display: block;
-  width: 1.3vw;
-  height: 1.3vw;
+  width: 3vw;
+  height: 3vw;
   opacity: 0;
   z-index: 5;
+  position: absolute;
+  top: 0;
+  left: 0;
   animation-name: cursor;
-  animation-duration: 1s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
 }
 @keyframes cursor {
   0%{
+    width: 3vw;
+    height: 3vw;
     opacity: 0;
+    top: 0;
+  left: 0;
+  }
+  10%{
+    width: 3vw;
+    height: 3vw;
+    opacity: 0.4;
+    top: 0;
+  left: 0;
   }
   25%{
-    opacity: 0.5;
+    width: 3vw;
+    height: 3vw;
+    opacity: 1;
+    top: 0;
+  left: 0;
+  }
+  40%{
+    width: 3vw;
+    height: 3vw;
+    opacity: 1;
+    top: 0;
+  left: 0;
   }
   50%{
+    width: 1.5vw;
+    height: 1.5vw;
     opacity: 1;
+    top: -30px;
+  left: 0;
+  }
+  60%{
+    width: 3vw;
+    height: 3vw;
+    opacity: 1;
+    top: 0;
+  left: 0;
   }
   75%{
-    opacity: 0.5;
+    width: 3vw;
+    height: 3vw;
+    opacity: 1;
+    top: 0;
+  left: 0;
+  }
+  90%{
+    width: 3vw;
+    height: 3vw;
+    opacity: 0.4;
+    top: 0;
+  left: 0;
   }
   100%{
+    width: 3vw;
+    height: 3vw;
     opacity: 0;
+    top: 0;
+  left: 0;
   }
 }
-.cursor-icon span{
+.cursor-icon img{
+  width: 100%;
+  height: auto;
+}
+/*.cursor-icon span{
   position: absolute;
     top: 0.8vw;
     left: 0;
@@ -236,7 +290,7 @@ body {
     transform: rotate(135deg);
     
     background-color: #fff;
-}
+}*/
 #projects {
   width: 100%;
   min-height: 100vh;
@@ -408,27 +462,95 @@ body {
     top: -2vh;
   }
   .cursor-wrap{
-    width: 1.3vh;
-    height: 1.3vh;
-    top: 35vh;
-    left: 30vh;
+   /* width: 3vw;
+    height: 3vw;
+    position: relative;*/
+    top: 25vh;
+    left: 0;
+   /* z-index: 30;*/
   }
-  .cursor-icon{
-    width: 1.3vh;
-    height: 1.3vh;
+  /*.cursor-icon{
+   /* display: block;
+    width: 3vw;
+    height: 3vw;
+    opacity: 0;
+    z-index: 5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation-name: cursor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
   }
-  .cursor-icon span{
-      top: 0.8vh;
-      height: 0.3vh;
-  }
-  .cursor-icon span::after{
-      top: 0.3vh;
-      left: -0.3vh;
-  }
-  .cursor-icon span::before{
-      top: -0.25vh;
-      left: -0.3vh;
-  }
+ /* @keyframes cursor {
+    0%{
+      width: 3vw;
+      height: 3vw;
+      opacity: 0;
+      top: 0;
+    left: 0;
+    }
+    10%{
+      width: 3vw;
+      height: 3vw;
+      opacity: 0.4;
+      top: 0;
+    left: 0;
+    }
+    25%{
+      width: 3vw;
+      height: 3vw;
+      opacity: 1;
+      top: 0;
+    left: 0;
+    }
+    40%{
+      width: 3vw;
+      height: 3vw;
+      opacity: 1;
+      top: 0;
+    left: 0;
+    }
+    50%{
+      width: 1.5vw;
+      height: 1.5vw;
+      opacity: 1;
+      top: -30px;
+    left: 0;
+    }
+    60%{
+      width: 3vw;
+      height: 3vw;
+      opacity: 1;
+      top: 0;
+    left: 0;
+    }
+    75%{
+      width: 3vw;
+      height: 3vw;
+      opacity: 1;
+      top: 0;
+    left: 0;
+    }
+    90%{
+      width: 3vw;
+      height: 3vw;
+      opacity: 0.4;
+      top: 0;
+    left: 0;
+    }
+    100%{
+      width: 3vw;
+      height: 3vw;
+      opacity: 0;
+      top: 0;
+    left: 0;
+    }
+  }*/
+  /*.cursor-icon img{
+    width: 100%;
+    height: auto;
+  }*/
   #projects {
     padding: 7vh 5vh 2vh;
   }
@@ -565,27 +687,95 @@ body {
     top: -2vh;
   }
   .cursor-wrap{
-    width: 1.3vh;
-    height: 1.3vh;
-    top: 36vh;
-    left: 44vh;
+   /* width: 3vw;
+    height: 3vw;
+    position: relative;*/
+    top: 25vh;
+    left: 0;
+   /* z-index: 30;*/
   }
-  .cursor-icon{
-    width: 1.3vh;
-    height: 1.3vh;
+ /* .cursor-icon{
+    display: block;
+    width: 3vw;
+    height: 3vw;
+    opacity: 0;
+    z-index: 5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation-name: cursor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
   }
-  .cursor-icon span{
-      top: 0.8vh;
-      height: 0.3vh;
-  }
-  .cursor-icon span::after{
-      top: 0.3vh;
-      left: -0.3vh;
-  }
-  .cursor-icon span::before{
-      top: -0.25vh;
-      left: -0.3vh;
-  }
+ /* @keyframes cursor {
+    0%{
+      width: 3vw;
+      height: 3vw;
+      opacity: 0;
+      top: 0;
+    left: 0;
+    }
+    10%{
+      width: 3vw;
+      height: 3vw;
+      opacity: 0.4;
+      top: 0;
+    left: 0;
+    }
+    25%{
+      width: 3vw;
+      height: 3vw;
+      opacity: 1;
+      top: 0;
+    left: 0;
+    }
+    40%{
+      width: 3vw;
+      height: 3vw;
+      opacity: 1;
+      top: 0;
+    left: 0;
+    }
+    50%{
+      width: 1.5vw;
+      height: 1.5vw;
+      opacity: 1;
+      top: -30px;
+    left: 0;
+    }
+    60%{
+      width: 3vw;
+      height: 3vw;
+      opacity: 1;
+      top: 0;
+    left: 0;
+    }
+    75%{
+      width: 3vw;
+      height: 3vw;
+      opacity: 1;
+      top: 0;
+    left: 0;
+    }
+    90%{
+      width: 3vw;
+      height: 3vw;
+      opacity: 0.4;
+      top: 0;
+    left: 0;
+    }
+    100%{
+      width: 3vw;
+      height: 3vw;
+      opacity: 0;
+      top: 0;
+    left: 0;
+    }
+  }*/
+ /* .cursor-icon img{
+    width: 100%;
+    height: auto;
+  }*/
   #projects {
     padding: 7vh 5vh 2vh;
   }
@@ -725,27 +915,95 @@ body {
     top: -2vh;
   }
   .cursor-wrap{
-    width: 1.3vh;
-    height: 1.3vh;
-    top: 36vh;
-    left: 36vh;
+   /* width: 3vw;
+    height: 3vw;
+    position: relative;*/
+    top: 25vh;
+    left: 0;
+    /*z-index: 30;*/
   }
-  .cursor-icon{
-    width: 1.3vh;
-    height: 1.3vh;
+  /*.cursor-icon{
+    display: block;
+    width: 3vw;
+    height: 3vw;
+    opacity: 0;
+    z-index: 5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation-name: cursor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
   }
-  .cursor-icon span{
-      top: 0.8vh;
-      height: 0.3vh;
-  }
-  .cursor-icon span::after{
-      top: 0.3vh;
-      left: -0.3vh;
-  }
-  .cursor-icon span::before{
-      top: -0.25vh;
-      left: -0.3vh;
-  }
+ /* @keyframes cursor {
+    0%{
+      width: 3vw;
+      height: 3vw;
+      opacity: 0;
+      top: 0;
+    left: 0;
+    }
+    10%{
+      width: 3vw;
+      height: 3vw;
+      opacity: 0.4;
+      top: 0;
+    left: 0;
+    }
+    25%{
+      width: 3vw;
+      height: 3vw;
+      opacity: 1;
+      top: 0;
+    left: 0;
+    }
+    40%{
+      width: 3vw;
+      height: 3vw;
+      opacity: 1;
+      top: 0;
+    left: 0;
+    }
+    50%{
+      width: 1.5vw;
+      height: 1.5vw;
+      opacity: 1;
+      top: -30px;
+    left: 0;
+    }
+    60%{
+      width: 3vw;
+      height: 3vw;
+      opacity: 1;
+      top: 0;
+    left: 0;
+    }
+    75%{
+      width: 3vw;
+      height: 3vw;
+      opacity: 1;
+      top: 0;
+    left: 0;
+    }
+    90%{
+      width: 3vw;
+      height: 3vw;
+      opacity: 0.4;
+      top: 0;
+    left: 0;
+    }
+    100%{
+      width: 3vw;
+      height: 3vw;
+      opacity: 0;
+      top: 0;
+    left: 0;
+    }
+  }*/
+  /*.cursor-icon img{
+    width: 100%;
+    height: auto;
+  }*/
   #projects {
     padding: 7vh 5vh 2vh;
   }
