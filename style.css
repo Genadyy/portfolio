@@ -145,6 +145,7 @@ body {
   position: absolute;
   top: -6vw;
   left: -3.4vw;
+  cursor: pointer;
 }
 .presentation{
   display: none;
